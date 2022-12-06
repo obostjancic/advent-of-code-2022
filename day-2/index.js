@@ -124,13 +124,6 @@ const main = async () => {
 
   console.log("Guessed score:", guessedScore);
   console.log("Guided score:", guidedScore);
-  // console.log(
-  //   "Top Three Elves:",
-  //   elves
-  //     .sort((a, b) => b - a)
-  //     .slice(0, 3)
-  //     .reduce((a, b) => a + b)
-  // );
 };
 
 main();
